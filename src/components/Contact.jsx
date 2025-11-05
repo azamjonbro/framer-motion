@@ -5,7 +5,6 @@ export default function Contact() {
     <section id="contact" style={{
       padding: "100px 20px",
       textAlign: "center",
-      background: "#222",
       color: "white"
     }}>
       <motion.h2
@@ -23,6 +22,7 @@ export default function Contact() {
         style={{ marginTop: "20px", fontSize: "1.25rem" }}
       >
         Email: hello@framerlanding.com
+
       </motion.p>
     </section>
   );
