@@ -12,6 +12,7 @@ export default function Contact() {
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
+        style={{ fontSize: "2.5rem", marginBottom: "10px" }}
       >
         Contact Us
       </motion.h2>
@@ -19,7 +20,7 @@ export default function Contact() {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.3, duration: 1 }}
-        style={{ marginTop: "20px" }}
+        style={{ marginTop: "20px", fontSize: "1.25rem" }}
       >
         Email: hello@framerlanding.com
       </motion.p>
